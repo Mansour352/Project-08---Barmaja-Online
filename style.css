@@ -513,9 +513,7 @@ footer .content-footer .end {
     footer .content-footer p{
         width: 100%;
     }
-    /* .home h4 {
-        padding-top: 70px;
-    } */
+  
 }
 
 @media screen and (max-width:767px) {
@@ -632,8 +630,5 @@ footer .content-footer .end {
     footer .content-footer p{
         width: 100%;
     }
-    /* .home h4 {
-        margin-top: 20px;
-    }
-     */
+    
 }
