@@ -248,11 +248,42 @@ p {
     display: flex;
     align-items: center;
     justify-content: center;
+    overflow: hidden;
+
 }
 .skill img {
     width: 75%;
+    transition: all .4s;
+}
+.skill img:hover {
+    transform: scale(1.1);
 }
 .js {
     border-radius: 25%;
 }
 /* End Skills */
+
+/* Start Footer */
+footer {
+    padding: 2rem var(--padding);
+    background-color: var(--bgColor-1);
+}
+
+footer .content-footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    align-items: center;
+}
+footer .content-footer p {
+    color: var(--lightColor);
+    text-align: center;
+    width: 500px;
+    margin-top: 1rem;
+}
+footer .content-footer .end {
+    color: var(--primarycolor);
+    margin-top: 1rem;
+}
+/* End Footer */
