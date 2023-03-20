@@ -138,15 +138,19 @@ h4{
     position: absolute;
     bottom: 0;
     height: 100%;
-    left: 50%;
+    left: 60%;
     transform: translateX(-50%);
     transition: bottom 1s, left 1s;
 }
+.home .container-images .shape{
+    height: 105%;
+    width: 90%;
+}
 .home .container-images:hover .shape{
-    bottom: 40px;
+    bottom: 30px;
 }
 .home .container-images:hover .pic{
-    left: 45%;
+    left: 55%;
 }
 /*End Images*/
 
@@ -198,6 +202,11 @@ p {
     border-radius: 20px;
     padding: 1.3rem 2rem;
     text-align: center;
+    transition: 0.4s;
+}
+.card:hover {
+    margin-top: -5px;
+    transform: scale(1.009);
 }
 .card em {
     font-size: 3.12rem;
@@ -208,5 +217,42 @@ p {
 /* End Services */
 
 /* Start Skills */
-
+.skills .container-images {
+    width: 60%;
+    padding-left: 100px;
+}
+.skills .container-images img {
+    width: 100%;
+}
+.skills {
+    background-color: var(--bgColor-2);
+    padding: 2rem var(--padding);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.skill .container-skills {
+    width: 50%;
+}
+.content-skills {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 4rem;
+}
+.skill {
+    width: 80px;
+    height: 80px;
+    background-color: var(--lightColor);
+    border-radius: 50%;
+    margin: 0 2rem 2rem 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.skill img {
+    width: 75%;
+}
+.js {
+    border-radius: 25%;
+}
 /* End Skills */
